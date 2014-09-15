@@ -1,0 +1,18 @@
+baseurl = "http://go-fsnotify.github.io"
+languageCode = "en-us"
+title = "fsnotify"
+
+[permalinks]
+post = "/:filename/"
+
+[Params]
+  Description = "File system notifications for Go."
+  AuthorName = "Nathan Youngman"
+  GitHubUser = "nathany"
+
+[[menu.main]]
+    name = "Source Code"
+    url = "https://github.com/go-fsnotify/fsnotify"
+[[menu.main]]
+    name = "Documentation"
+    url = "http://godoc.org/gopkg.in/fsnotify.v1"
