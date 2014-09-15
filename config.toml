@@ -15,4 +15,4 @@ post = "/:filename/"
     url = "https://github.com/go-fsnotify/fsnotify"
 [[menu.main]]
     name = "Documentation"
-    url = "http://godoc.org/gopkg.in/fsnotify.v1"
+    url = "https://godoc.org/gopkg.in/fsnotify.v1"
