@@ -16,3 +16,6 @@ post = "/:filename/"
 [[menu.main]]
     name = "Documentation"
     url = "https://godoc.org/gopkg.in/fsnotify.v1"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/gofsnotify"
