@@ -1,4 +1,4 @@
-baseurl = "http://go-fsnotify.github.io"
+baseurl = "http://fsnotify.org"
 languageCode = "en-us"
 title = "fsnotify"
 
