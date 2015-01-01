@@ -17,7 +17,7 @@ dependencies:
 test:
   override:
     #- sassc sass/all.sass static/assets/all.css --style compressed
-    - hugo -v
+    - hugo -v --theme=hyde
   post:
     - if [ $CIRCLE_BRANCH == 'master' ]; then s3up -source=public/ -bucket=origin.fsnotify.org -key=$AWS_ACCESS_KEY_ID -secret=$AWS_SECRET_ACCESS_KEY ; fi
 
