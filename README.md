@@ -11,6 +11,6 @@ ln -s $GOPATH/src/github.com/go-fsnotify/go-fsnotify.github.io $GOPATH/src/githu
 Running the server:
 
 ```bash
-hugo server --theme=hyde --buildDrafts --watch
+hugo server --theme=hyde -D --watch
 ```
 
