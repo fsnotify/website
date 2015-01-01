@@ -16,7 +16,7 @@ To make this work, an application simply subscribes to be notified of events.
 At least it should be that simple, but unfortunately each Operating System has a different way of doing things.
 
 > "Some of you may be familiar with existing file monitoring solutions... they are a pain in the butt to use, they are complex, they are not user friendly, and they have a lot of race conditions that you have to be aware of as a developer."  
-> [Scaling Source Control at Facebook](http://www.youtube.com/watch?v=Dlguc63cRXg) by Durham Goode 
+> [Scaling Source Control at Facebook](https://www.youtube.com/watch?v=Dlguc63cRXg) by Durham Goode 
 
 With [fsnotify][] you have a platform-independent interface to file system notifications in the [Go programming language][golang]. It tries to take the pain out of file system notifications so you can get on with writing your application.
 
