@@ -14,7 +14,9 @@
       </a>
     </h1>
 
-    <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+    <span class="post-date">
+      Contributed by {{ .Params.author }} on {{ .Date.Format "January 2, 2006" }}.
+    </span>
 
     {{ .Content }}
   </div>

@@ -1,9 +1,10 @@
 +++
 date = "2014-09-14"
 title = "Introduction to File System Notifications"
+author = "Nathan Youngman"
 +++
 
-When a file or directory is created, modified or removed, the Operating System can inform any applications that wish to know. This can come in handy in many situations:
+When a file or directory is created, modified or removed, the Operating System can inform any applications that wish to know. This can come in handy in many situations: 
 
 * Text editors know a file has changed externally and may offer to reload it.
 * Applications know that there are changes to backup (Time Machine, Arq) or synchronize (Dropbox).

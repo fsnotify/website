@@ -7,8 +7,6 @@ post = "/:filename/"
 
 [Params]
 Description = "File system notifications for Go."
-AuthorName = "Nathan Youngman"
-GitHubUser = "nathany"
 GaugesId = "54a4d7e5e32bb42c26167825"
 
 [[menu.main]]
