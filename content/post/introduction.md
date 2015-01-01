@@ -1,5 +1,5 @@
 +++
-date = "2014-09-14T20:26:20-06:00"
+date = "2014-09-14"
 title = "Introduction to File System Notifications"
 +++
 
