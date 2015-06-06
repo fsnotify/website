@@ -1,10 +1,10 @@
-SASS_VERSION=3.1.0
+SASS_VERSION=3.2.4
 
 set -x
 set -e
 
 # Install SassC if not already cached or upgrade an old version.
-if [ ! -e $CIRCLE_BUILD_DIR/bin/sassc ] || ! [[ `sassc -v` =~ "sassc: ${SASS_VERSION}" ]]; then
+if [ ! -e $CIRCLE_BUILD_DIR/bin/sassc ] || ! [[ `sassc -v` =~ "libsass: ${SASS_VERSION}" ]]; then
   export SASS_BUILD_DIR=$HOME/src/github.com/sass
   mkdir -p $SASS_BUILD_DIR
   cd $SASS_BUILD_DIR
