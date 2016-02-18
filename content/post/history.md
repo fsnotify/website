@@ -104,7 +104,7 @@ Happy New Year!
 [Looper]: https://github.com/nathany/looper
 [howeyc]: https://github.com/howeyc/fsnotify
 [pipeline]: https://github.com/howeyc/fsnotify/pull/65
-[changelog]: https://github.com/go-fsnotify/fsnotify/blob/master/CHANGELOG.md
+[changelog]: https://github.com/fsnotify/fsnotify/blob/master/CHANGELOG.md
 [exp]: https://godoc.org/golang.org/x/exp
 [osfsnotify]: https://github.com/golang/go/issues/4068
 [hackathon]: http://startupedmonton.com/events/
@@ -117,9 +117,9 @@ Happy New Year!
 
 [importers]: http://godoc.org/github.com/howeyc/fsnotify?importers
 [gopkg.in]: http://labix.org/gopkg.in
-[comeback]: https://github.com/go-fsnotify/fsnotify/issues/7
+[comeback]: https://github.com/fsnotify/fsnotify/issues/7
 
-[usn]: https://github.com/go-fsnotify/fsnotify/issues/53
-[fsevents]: https://github.com/go-fsnotify/fsevents
-[fen]: https://github.com/go-fsnotify/fsnotify/issues/12
+[usn]: https://github.com/fsnotify/fsnotify/issues/53
+[fsevents]: https://github.com/fsnotify/fsevents
+[fen]: https://github.com/fsnotify/fsnotify/issues/12
 

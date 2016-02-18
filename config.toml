@@ -11,11 +11,11 @@ GaugesId = "54a4d7e5e32bb42c26167825"
 
 [[menu.main]]
 name = "Source Code"
-url = "https://github.com/go-fsnotify/fsnotify"
+url = "https://github.com/fsnotify/fsnotify"
 
 [[menu.main]]
 name = "Documentation"
-url = "https://godoc.org/gopkg.in/fsnotify.v1"
+url = "https://godoc.org/github.com/fsnotify/fsnotify"
 
 [[menu.main]]
 name = "Twitter"

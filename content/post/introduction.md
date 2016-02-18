@@ -24,4 +24,4 @@ With [fsnotify][] you have a platform-independent interface to file system notif
 This blog is here to provide updates on fsnotify itself and a deeper look at file system notifications for the curious. Until next time.
 
 [golang]: http://golang.org/
-[fsnotify]: https://github.com/go-fsnotify/fsnotify
+[fsnotify]: https://github.com/fsnotify/fsnotify
