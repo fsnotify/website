@@ -1,4 +1,4 @@
-baseurl = "https://fsnotify.org"
+baseurl = "https://fsnotify.org/"
 languageCode = "en-us"
 title = "fsnotify"
 theme = "hyde"
