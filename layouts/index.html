@@ -1,0 +1,25 @@
+  {{ partial "head.html" . }}
+
+  <body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+    {{ partial "sidebar.html" . }}
+
+    <div class="content container">
+      <div class="posts">
+        {{ range .Data.Pages }}
+          <div class="post">
+
+            <h1 class="post-title">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h1>
+            <span class="post-date">
+              Contributed by {{ .Params.author }} on {{ .Date.Format "January 2, 2006" }}.
+            </span>
+            {{ .Content }}
+
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
+  </body>
+</html>

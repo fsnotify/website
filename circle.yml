@@ -18,7 +18,7 @@ test:
     - pygmentize -V
   override:
     #- sassc sass/all.sass static/all.css --style compressed
-    - hugo -v --theme=hyde
+    - hugo -v
 
 deployment:
   s3up:

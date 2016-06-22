@@ -6,4 +6,4 @@
 # reflex -r '\.(sass|scss)$' -- ${SASSC_COMMAND} &
 # hugo server -v -D --watch && fg
 
-hugo server -v -D --watch --theme=hyde
+hugo server -v -D --watch
