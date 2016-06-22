@@ -1,0 +1,19 @@
+  {{ partial "head.html" . }}
+
+  <body class="{{ .Site.Params.themeColor }}">
+    {{ partial "sidebar.html" . }}
+
+    <div class="content container">
+      <div class="post">
+
+        <h1>{{ .Title }}</h1>
+        <span class="post-date">
+          Contributed by {{ .Params.author }} on {{ .Date.Format "January 2, 2006" }}.
+        </span>
+        {{ .Content }}
+
+      </div>
+    </div>
+
+  </body>
+</html>
