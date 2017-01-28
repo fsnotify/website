@@ -2,8 +2,15 @@
 
 # # execute SassC at startup
 # eval $SASSC_COMMAND
+
+# # Ctrl-C kills both commands
+# trap killgroup SIGINT
+# killgroup(){
+#   kill 0
+# }
+
 # # watch Sass and Hugo files during development
-# reflex -r '\.(sass|scss)$' -- ${SASSC_COMMAND} &
+# notify -c "${SASSC_COMMAND}" sass/** &
 # hugo server -v -D --watch && fg
 
 hugo server -v -D --watch
