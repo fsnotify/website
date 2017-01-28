@@ -8,7 +8,6 @@ post = "/:filename/"
 
 [Params]
 description = "File system notifications for Go."
-GaugesId = "54a4d7e5e32bb42c26167825"
 
 [[menu.main]]
 name = "Source Code"
