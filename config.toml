@@ -15,8 +15,4 @@ url = "https://github.com/fsnotify/fsnotify"
 
 [[menu.main]]
 name = "Documentation"
-url = "https://godoc.org/github.com/fsnotify/fsnotify"
-
-[[menu.main]]
-name = "Twitter"
-url = "https://twitter.com/fsnotify"
+url = "https://pkg.go.dev/github.com/fsnotify/fsnotify"
