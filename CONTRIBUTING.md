@@ -25,5 +25,5 @@ Preview locally and open a pull request once satisfied.
 
 ### Deployment
 
-CircleCI automatically deploys the website when changes are merged to master. It takes a minute.
+GitHub Actions automatically deploys the website when changes are merged to main. It takes a minute.
 
