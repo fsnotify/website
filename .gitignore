@@ -2,3 +2,4 @@ public
 resources/_gen
 *.sublime-project
 cert/**/*
+.hugo_build.lock

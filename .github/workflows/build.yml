@@ -15,12 +15,6 @@ jobs:
           tar xvzf ${HUGO_DOWNLOAD} hugo
           mv hugo $HOME/hugo
         env:
-          HUGO_VERSION: 0.81.0
+          HUGO_VERSION: 0.92.0
       - name: Hugo Build
         run: $HOME/hugo -v
-      - name: Deploy to S3
-        if: github.ref == 'refs/heads/main'
-        run: $HOME/hugo -v deploy --maxDeletes -1
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
